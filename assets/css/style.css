@@ -364,7 +364,7 @@ a{
     position: fixed;
     top: 3.8rem;
     right: 6.5rem;
-    background-color: rgb(0,0,0,.5);
+    background-color: rgb(0,0,0,.8);
     /* background-image: url("../img/nav-1.jpg"); */
     z-index: 1000;
     transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
@@ -531,6 +531,7 @@ body{
   color: #fff; 
   padding:3rem 3rem; 
   margin-right: 10rem;
+  background-color: rgb(14, 26, 45);
 }
 .slide-date {
   color: #0a8acb; 
