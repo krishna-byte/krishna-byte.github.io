@@ -9,6 +9,7 @@
 html{
     font-size: 10px;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 #loading{
   position: fixed; 
@@ -719,7 +720,6 @@ div.overlay-blue:hover {
 .fab,.fas{
   color: #8892b0;
 }
-
 /* Media queires */
 @media (max-width: 75em) {
   .big-heading{
@@ -855,6 +855,9 @@ div.overlay-blue:hover {
   .footer{
     transform: translate(-7rem,5rem);
   }
+  .fa-5x{
+    font-size: 5rem !important;
+  }
 }
 @media (max-width: 37.5em){
   .intro{
@@ -878,5 +881,64 @@ div.overlay-blue:hover {
   .video{
     width: 20rem;
     transform: translateY(1rem);
+  }
+  .name_heading{
+    font-size: 1.6rem;
+    transform: translateX(-1rem);
+  }
+  .designation{
+    font-size: 1rem;
+    transform: translate(-1rem,1rem);
+  }
+  .btn-getintouch {
+    padding: 1rem 1rem;
+    font-size: 1.2rem;
+    line-height: .8;
+    letter-spacing: 3px;
+    margin-left: 20rem;
+}
+.navigation__link:link, .navigation__link:visited{
+  font-size: 2rem;
+}
+.about_img{
+  width: 12rem;
+}
+}
+@media (max-width: 25em) {
+  .btn-getintouch{
+    padding: .7rem .7rem;
+    font-size: 1rem;
+    line-height: .5;
+    letter-spacing: 2px;
+    margin-left: 20rem;
+  }
+  .fa-5x{
+    font-size: 4.5rem !important;
+  }
+  .contact-heading{
+    font-size: 3rem;
+  }
+  .btn-getintouchcontact{
+    padding: 1rem 1rem;
+    font-size: 1.2rem;
+    line-height: .8;
+    letter-spacing: 3px;
+  }
+}
+@media (max-width: 21em) {
+  .name_heading{
+    display: none;
+  }
+  .designation{
+    display: none;
+  }
+  .secondary-heading{
+    width: 80%;
+  }
+  .btn-getintouch{
+    padding: .2rem .2rem;
+    font-size: .7rem;
+    line-height: .8;
+    letter-spacing: 1px;
   }
 }
