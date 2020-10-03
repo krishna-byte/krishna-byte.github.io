@@ -669,7 +669,6 @@ div.overlay-blue:hover {
   cursor: pointer;
   animation: moveInRight 1s ease-out 3s;
   animation-fill-mode: backwards;
-  z-index: -1;
 }
 .mail{
   position: fixed;
